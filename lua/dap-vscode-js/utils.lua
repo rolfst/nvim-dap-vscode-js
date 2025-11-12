@@ -50,7 +50,7 @@ local function file_exists(name)
 end
 
 local function debugger_entrypoint(debugger_path)
-	return debugger_path .. "/lib/node_modules/js-debug/dist/src/dapDebugServer.js
+	return debugger_path .. "/lib/node_modules/js-debug/dist/src/dapDebugServer.js"
 end
 
 ---@param config Settings
